@@ -308,7 +308,7 @@ i {
     margin: 20px auto; /* Centraliza horizontalmente */
     text-align: center; /* Centraliza o texto */
     margin-top: 10px; /* Ajusta o espaçamento superior conforme necessário */
-    font-size: 12px; /* Ajusta o tamanho da fonte conforme necessário */
+    font-size: 9.5px; /* Ajusta o tamanho da fonte conforme necessário */
   }
 }
 @media screen and (max-width: 768px) {
