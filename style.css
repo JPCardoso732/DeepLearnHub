@@ -41,18 +41,26 @@ i {
 }
 .header-button {
   border: 1px solid #fff;
-  padding: 8px 24px;
+  padding: 10px 24px;
   border-radius: 4px;
   color: #fff;
   background-color: transparent;
-  transition: background-color 0.8s;
 }
 
 .header-button:hover {
   border: 1px solid #0c2135;
   background-color: #0c2135;
+  animation: translateY 0.8s alternate infinite;
 }
 
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
 .header-logo {
   display: flex;
   align-items: center;
@@ -308,7 +316,7 @@ i {
     margin: 20px auto; /* Centraliza horizontalmente */
     text-align: center; /* Centraliza o texto */
     margin-top: 10px; /* Ajusta o espaçamento superior conforme necessário */
-    font-size: 9.5px; /* Ajusta o tamanho da fonte conforme necessário */
+    font-size: 12px; /* Ajusta o tamanho da fonte conforme necessário */
   }
 }
 @media screen and (max-width: 768px) {
@@ -342,7 +350,7 @@ i {
     margin: 20px auto; /* Centraliza horizontalmente */
     text-align: center; /* Centraliza o texto */
     margin-top: 10px; /* Ajusta o espaçamento superior conforme necessário */
-    font-size: 12px; /* Ajusta o tamanho da fonte conforme necessário */
+    font-size: 9.5px; /* Ajusta o tamanho da fonte conforme necessário */
   }
 }
 .btn-sales {
